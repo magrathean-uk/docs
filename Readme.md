@@ -29,8 +29,8 @@ install it by running `cargo install mdbook`.
 #### Texlive
 
 ```sh
-# Source the .env file to get the PANDOC_VERSION
-. ./.env
+# Source tool-versions.sh to get the PANDOC_VERSION
+. ./tool-versions.sh
 
 sudo apt-get update
 
